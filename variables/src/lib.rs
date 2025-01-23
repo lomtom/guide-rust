@@ -42,8 +42,8 @@ mod tests {
     fn uninitialized() {
         let x;
         // fail
-        // println!("The value of y is: {x}");
+        // println!("The value of x is: {x}");
         x = 6;
-        println!("The value of y is: {x}");
+        println!("The value of x is: {x}");
     }
 }
